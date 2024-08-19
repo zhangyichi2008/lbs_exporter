@@ -1,0 +1,9 @@
+project_name: lbx-exporter
+
+builds:
+  - main: .
+    id: "lbx-exporter"
+    binary: lbx-exporter
+    goos:
+      - linux
+    goarch: [amd64, arm64]
